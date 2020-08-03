@@ -1,0 +1,26 @@
+{
+  "settings": {
+    "react": {
+      "version": "16.13.1"
+    }
+  },
+  "env": {
+    "browser": true,
+    "es2020": true
+  },
+  "extends": ["plugin:react/recommended", "standard"],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "arrowFunctions": true, // enable arrow functions
+      "jsx": true
+    },
+    "ecmaVersion": 11,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "space-before-function-paren": 0,
+    "react/prop-types": [0]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": false,
+        "targets": {
+          "node": "current"
+        }
+      }
+    ],
+    "@babel/preset-react"
+  ],
+
+  "plugins": [
+    "transform-class-properties",
+    "@babel/plugin-transform-arrow-functions"
+  ]
+}
